@@ -11,7 +11,6 @@ def terminal_status():
 
         try:
             if 'gnome-terminal-' in proc.info['name']:
-                print("aberto")
                 status_check = {"terminal_name": "GNOME Terminal", "status": True}
                 return status_check
             elif 'kitty' in proc.info['name']:
