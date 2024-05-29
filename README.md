@@ -7,6 +7,6 @@ Terminais disponíveis:
 - Terminal (MacOs)
 
 Dependências:
-´´sh
+``` sh
 pip install psutil pypresence
-´´
+```
