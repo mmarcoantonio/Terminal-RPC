@@ -5,3 +5,8 @@ Terminais disponíveis:
 - Konsole
 - iTerm2
 - Terminal (MacOs)
+
+Dependências:
+´´sh
+pip install psutil pypresence
+´´
