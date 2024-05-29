@@ -1,5 +1,5 @@
 # TerminalRichPresence
-Projeto, feito em python, que aciona uma atividade no perfil do discord.  
+Projeto, feito em python, que ativa uma atividade no seu perfil do discord.  
 Terminais disponíveis:
 - GNOME Terminal
 - Konsole
