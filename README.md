@@ -1,2 +1,7 @@
-# Terminal-RPC
-Rich Presence de Terminal para o Discord feito em Python.
+# TerminalRichPresence
+Projeto, feito em python, que aciona uma atividade no perfil do discord.  
+Terminais disponíveis:
+- GNOME Terminal
+- Konsole
+- iTerm2
+- Terminal (MacOs)
