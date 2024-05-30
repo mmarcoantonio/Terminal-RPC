@@ -7,7 +7,7 @@ Opções disponíveis:
 - iTerm2
 - Terminal (MacOs)
 
-Dependências:
+Instalar dependências:
 ``` sh
-pip install psutil pypresence
+pip install -r requirements.txt
 ```
