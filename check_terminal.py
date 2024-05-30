@@ -8,13 +8,12 @@ id = '1245378474454024334'
 def terminal_status():
     # search for the process name in the OS
     for proc in psutil.process_iter(['name']):
-
         try:
             if 'gnome-terminal-' in proc.info['name']:
-                status_check = {"terminal_name": "GNOME Terminal", "status": True}
+                status_check = {"terminal_name": "GNOME Terminal","status": True}
                 return status_check
             elif 'kitty' in proc.info['name']:
-                status_check = {"terminal_name": "Kitty", "status": True}
+                status_check = {"terminal_name": "Kitty","status": True}
                 return True
             elif 'Konsole' in proc.info['name']:
                 status_check = {"terminal_name": "Konsole","status": True}
@@ -34,7 +33,6 @@ def terminal_status():
 
 def update_activity_discord():
     check = terminal_status()
-
     if check["status"]:
         rpc.update(state="Usando o " + check["terminal_name"], start=1, large_image="terminalicon")
     else:
