@@ -1,6 +1,7 @@
 # TerminalRichPresence
-Projeto, feito em python, que ativa uma atividade no seu perfil do discord.  
-Terminais disponíveis:
+Projeto, feito em python, que liga o recurso Rich Presence do Discord no seu perfil.  
+
+Opções disponíveis:
 - GNOME Terminal
 - Konsole
 - iTerm2
